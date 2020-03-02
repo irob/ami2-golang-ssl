@@ -66,12 +66,12 @@ Description
 ## References
 
 // LETSENCRYPT ON AMAZON AMI2
-https://medium.com/@gnowland/deploying-lets-encrypt-on-an-amazon-linux-ami-ec2-instance-f8e2e8f4fc1f
-https://medium.com/@andrenakkurt/great-guide-thanks-for-putting-this-together-gifford-nowland-c3ce0ea2455
+- https://medium.com/@gnowland/deploying-lets-encrypt-on-an-amazon-linux-ami-ec2-instance-f8e2e8f4fc1f
+- https://medium.com/@andrenakkurt/great-guide-thanks-for-putting-this-together-gifford-nowland-c3ce0ea2455
 
 // FORWARDING RULE PORT TO ANOTHER PORT
-https://googlecloudplatform.uservoice.com/forums/302595-compute-engine/suggestions/8518255-need-to-route-from-forwarding-rule-port-to-another
+- https://googlecloudplatform.uservoice.com/forums/302595-compute-engine/suggestions/8518255-need-to-route-from-forwarding-rule-port-to-another
 
 // SETCAP ISSUE, OPENING PORT 443
-https://stackoverflow.com/questions/54690289/golang-on-gcp-listen-tcp-443-bind-permission-denied
-https://unix.stackexchange.com/questions/455221/setcap-not-found-in-debian-9/455234#455234
+- https://stackoverflow.com/questions/54690289/golang-on-gcp-listen-tcp-443-bind-permission-denied
+- https://unix.stackexchange.com/questions/455221/setcap-not-found-in-debian-9/455234#455234
