@@ -11,7 +11,7 @@ Description
 ## Installation
 
 	// Prerequisites
-		- A domain -anywere- (NOTE: remove AAAA DNS)
+		- A domain -anywhere- (NOTE: remove AAAA DNS)
 			* open port 80, Letsencrypt need it.
 			* open 8080 and 443 ports, your app need it.
 		- An Amazon AMI2 instance
