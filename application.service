@@ -1,0 +1,13 @@
+[Unit]
+Description=ProjectName
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/ec2-user/PROJECT_DIR
+ExecStart=/home/ec2-user/PROJECT_DIR/application
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
