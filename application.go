@@ -19,7 +19,6 @@ func main() {
 		if err != nil {
 			log.Fatalf("http.ListendAndServeTLS() failed with %s", err)
 		}
-		fmt.Printf("Ending HTTPS server on 443\n")
 	}()
 
 	http.ListenAndServe(":8080", http.HandlerFunc(redirect))
