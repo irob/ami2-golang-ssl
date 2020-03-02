@@ -73,4 +73,5 @@ https://medium.com/@andrenakkurt/great-guide-thanks-for-putting-this-together-gi
 https://googlecloudplatform.uservoice.com/forums/302595-compute-engine/suggestions/8518255-need-to-route-from-forwarding-rule-port-to-another
 
 // SETCAP ISSUE, OPENING PORT 443
+https://stackoverflow.com/questions/54690289/golang-on-gcp-listen-tcp-443-bind-permission-denied
 https://unix.stackexchange.com/questions/455221/setcap-not-found-in-debian-9/455234#455234
