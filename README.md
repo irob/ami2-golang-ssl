@@ -49,10 +49,10 @@ Description
 
 	// Once uploaded the compiled file and the application service file
 	// Start the service
-		- sudo mv application.service /etc/systemd/system && sudo systemctl daemon-reload && sudo systemctl enable application
+		sudo mv application.service /etc/systemd/system && sudo systemctl daemon-reload && sudo systemctl enable application
 
 	// Manage your application
-		- sudo setcap CAP_NET_BIND_SERVICE=+eip /home/ec2-user/golang/src/PROJECT_DIR/application && sudo systemctl restart application
+		- sudo setcap CAP_NET_BIND_SERVICE=+eip /home/ec2-user/PROJECT_DIR/application && sudo systemctl restart application
 		- sudo systemctl start application
 		- sudo systemctl restart application
 
