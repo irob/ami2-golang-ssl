@@ -12,9 +12,9 @@ Description
 
 	// Prerequisites
 		- A domain -anywhere- (NOTE: remove AAAA DNS)
+		- An Amazon AMI2 instance
 			* open port 80, Letsencrypt need it.
 			* open 8080 and 443 ports, your app need it.
-		- An Amazon AMI2 instance
 
 	// Perform a quick software update on your instance
 		sudo yum update -y
