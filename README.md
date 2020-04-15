@@ -11,10 +11,10 @@ Description
 ## Installation
 
 	// Prerequisites
-		- A domain -anywere- (NOTE: remove AAAA DNS)
+		- A domain -anywhere- (NOTE: remove AAAA DNS)
+		- An Amazon AMI2 instance
 			* open port 80, Letsencrypt need it.
 			* open 8080 and 443 ports, your app need it.
-		- An Amazon AMI2 instance
 
 	// Perform a quick software update on your instance
 		sudo yum update -y
@@ -52,10 +52,10 @@ Description
 
 	// Once uploaded the compiled file and the application service file
 	// Start the service
-		- sudo mv application.service /etc/systemd/system && sudo systemctl daemon-reload && sudo systemctl enable application
+		sudo mv application.service /etc/systemd/system && sudo systemctl daemon-reload && sudo systemctl enable application
 
 	// Manage your application
-		- sudo setcap CAP_NET_BIND_SERVICE=+eip /home/ec2-user/golang/src/PROJECT_DIR/application && sudo systemctl restart application
+		- sudo setcap CAP_NET_BIND_SERVICE=+eip /home/ec2-user/PROJECT_DIR/application && sudo systemctl restart application
 		- sudo systemctl start application
 		- sudo systemctl restart application
 
