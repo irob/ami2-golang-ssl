@@ -33,6 +33,9 @@ Description
 	// Run the letsencrypt setup, and follow the instructions
 		sudo /opt/letsencrypt/certbot-auto certonly -d YOU_DOMAIN -d www.YOU_DOMAIN --manual --preferred-challenges dns-01 --force-renewal --manual-public-ip-logging-ok
 
+	// Compile the application
+		GOOS=linux go build -o application
+
 	// Upload the compiled file and the application service file
 		sudo chmod 755 application	
 		sudo chmod 755 application.service
